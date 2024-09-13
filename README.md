@@ -27,8 +27,9 @@ import pandas as pd
 
 <p style="text-align:justify">O arquivo <code>tips.csv</code>(gorjetas) e o arquivo que está contido o estudo estatístico feito, sendo assim para que possamos visualizarmos é preciso primeiro atribuir-lo a uma variável de ambiente do Python, que iremos chamar de <code>gorjeta</code>.</p>
 
-![criação de gorjetas](/image/criando_gorjetas.png)
-
+<p align="center">
+    <img width="460" height="250" src="image\criando_gorjetas.png">
+</p>
 
 ## População ou Amostra
 
