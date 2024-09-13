@@ -9,14 +9,25 @@
 ## Visualizando os dados
 Para visualizar os dados, uma das formulas mais fácil e fazendo o uso de uma biblioteca excelente do Python para isso o <a href="https://pandas.pydata.org/">Panda</a>.
 
-> instalação
+> Instalando a biblioteca
 >```python
 >pip install pandas
 >```
+
+Toda vez que precisarmos fazer o uso de alguma das bibliotecas do Python além de fazer sua instalação é preciso importa ela no arquivo em que se está trabalhando.
+
+
 ~~~python
 import pandas as pd
 ~~~
 
+<p style="text-align:justify">Apos a importação da biblioteca é preciso importas os dados, sendo assim, criei uma pasta <code>/dados</code>, onde salvei os dados baixados do <a herf="https://www.kaggle.com/datasets/jsphyg/tipping">Kaggle</a>. Os dados vem compactados, em forma de zip, apos a descompactação é possível ver que agora existe um arquivo com o formato tipo <code>.csv</code>, do qual o nome é <i>Comma-separated values</i>, que significa nada mais que, valores separados por virgulas, ou seja, são planilhas do qual os valores cada um deles são separados por virgulas e linhas.</p>
+
+![pasta de dados](/image/pasta_dados.png)
+
+<p style="text-align:justify">O arquivo <code>tips.csv</code>(gorjetas) e o arquivo que está contido o estudo estatístico feito, sendo assim para que possamos visualizarmos é preciso primeiro atribuir-lo a uma variável de ambiente do Python, que iremos chamar de <code>gorjeta</code>.</p>
+
+![criação de gorjetas](/image/criando_gorjetas.png)
 
 
 ## População ou Amostra
