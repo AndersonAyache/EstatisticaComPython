@@ -68,15 +68,54 @@ uma <b>População Estatística</b> e uma <b>Amostra Estatística</b>.
     </li>
     <li>
         <p style="text-align:justify">
-            <b>Amostra Estatística</b>: já a Amostra Estatística é utilizada quando não é possível entrevistar toda a população, pois isso demandaria muito tempo e custos elevados. Portanto, são selecionados indivíduos específicos, com base em critérios, para responder à pesquisa, e os resultados apresentados refletem uma tendência para toda a população. Isso é muito comum em pesquisas eleitorais, onde, em vez de perguntar a toda a população, seleciona-se um grupo representativo, cujas respostas indicam tendências para o restante da população. Outro exemplo claro é quando uma empresa quer lançar um novo produto e realiza uma pesquisa de mercado. Como não é viável entrevistar todos os consumidores, uma amostra é selecionada para verificar se o produto será bem aceito.
+            <b>Amostra Estatística</b>:a Amostra Estatística é utilizada quando não é possível entrevistar toda a população, pois isso demandaria muito tempo e custos elevados, o que melhor se encaixa no nosso exemplo, afinal o garçom só conseguiu colegar as informações dos clientes que ele atendeu no restaurante que ele trabalha. Nestes casos, são selecionados indivíduos específicos, com base em critérios para que os resultados apresentados refletem uma tendência para toda a população. As amostras estatísticas também pode ser vistas em pesquisas eleitorais, pesquisas de mercado, quando uma empresa quer lançar um novo produto ou verificar a aceitação de seus produtos. Então toda vez que não for viável entrevistar todos os consumidores é preciso selecionar uma amostra da população, e se os critérios de seleção forem bem específicos, então esta amostra ira representar, com certas aproximações o comportamento de toda a população.
         </p>
     </li>
 </ul>
 
+## Variáveis estatísticas
 <p style="text-align:justify">
-Como podemos ver cada coluna representa uma informação extraída pelo garçom, tirando a primeira coluna que é chamada de ID, um identificador, todas as demais colunas tem um proposito, o nome disso em estatística é <code>variável</code>. Existe dois tipos de variáveis 
+Como podemos ver cada coluna representa uma informação extraída pelo garçom, tirando a primeira coluna que é chamada de ID, um identificador, todas as demais colunas tem um proposito, o nome disso em estatística é <code>variável</code>. Existe dois tipos de variáveis:
 </p>
 
+
+<table style="margin: 0px auto;">
+    <caption>
+        Variáveis estatísticas 
+    </caption>
+    <tr>
+        <th>Tipos de Variáveis</th>
+        <th>Subtipos de Variáveis</th>
+        <th>Descrição</th>
+        <th>Exemplos</th>
+    </tr>
+    <tr>
+        <td rowspan="2">Qualitativa</td>
+        <td>Nominal</td>
+        <td>Não permite ordenação.</td>
+        <td>Cor dos olhos, local de nascimento, gênero, etc... </td>
+    </tr>
+    <tr>
+        <td>Ordinal</td>
+        <td>Quando permite ordenação.</td>
+        <td>Classe social, grau de escolaridade, etc... </td>
+    </tr>
+    <tr>
+    <tr>
+    <td rowspan="2">Quantitativa</td>
+        <td>Continua</td>
+        <td>Quando á variável admite número com virgula, ou seja, pertence a um intervalo de números reais.</td>
+        <td>Altura, peso, idade, etc... </td>
+    </tr>
+    <tr>
+        <td>Discreta</td>
+        <td>Quando á variável é enumerável, quando é possível contar.</td>
+        <td>Quantidade de clientes, quantidade de pedidos, Quantidade de filhos,etc... </td>
+    </tr>
+    <tr>
+</table>
+
+<br>
 <p style="text-align:justify">A utilização de amostras tem vantagens, como a redução de custos e tempo, mas também traz alguns desafios. Por exemplo, se a amostra não for bem representativa da população, os resultados podem não refletir com precisão o comportamento do grupo maior. Isso torna a escolha dos critérios de seleção uma etapa crucial,e abordaremos mais a frente.</p>
 
 <p style="text-align:justify">Um ponto a se observar é a amplitude amostral, que é calculada pela subtração do menor valor da amostra do maior valor.</p>
@@ -89,7 +128,6 @@ Como podemos ver cada coluna representa uma informação extraída pelo garçom,
 > Sendo assim a amplitude da amostra é de 34 anos. <br>
 > <br>
 
-## Variáveis estatísticas
 <p style="text-align:justify">Um dos pontos mais importante na estatística é a parte da coleta de dados, uma pesquisa estatística tem que ser muito bem elaborada para que se possa atender o objetivo desejado, sendo assim as perguntas que devem ser feitas devem ser muito bem elaboradas, pois cada pergunta tera um valor na pesquisa e está sera atribuída a um campo na nossa pesquisa, este campo se chama variável, esta variável pode ser um o nome do entrevistado, a idade, ou gênero, renda salário, se gosta de um tipo de produto ou não, ou seja, tudo que for perguntando pode se tornar um tipo de variável.</p>
 
 ### Tipos de variáveis
