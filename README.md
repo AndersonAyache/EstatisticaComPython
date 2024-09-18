@@ -116,7 +116,80 @@ Como podemos ver cada coluna representa uma informação extraída pelo garçom,
 </table>
 
 <br>
-<p style="text-align:justify">A utilização de amostras tem vantagens, como a redução de custos e tempo, mas também traz alguns desafios. Por exemplo, se a amostra não for bem representativa da população, os resultados podem não refletir com precisão o comportamento do grupo maior. Isso torna a escolha dos critérios de seleção uma etapa crucial,e abordaremos mais a frente.</p>
+<p style="text-align:justify">
+Em nossos estudo podemos observar que existe sete colunas, ou seja, existem sete variáveis
+no biblioteca Pandas é possível com um único comendo observar quais sãos estas colunas/variáveis.
+</p>
+
+~~~python
+print(gorjetas.columns)
+~~~
+
+o que nos retornara
+
+~~~python
+Index(['total_bill', 'tip', 'sex', 'smoker', 'day', 'time', 'size'], dtype='object')
+~~~
+
+Sendo assim estás são as sete colunas/variáveis que nos temos, e aqui vamos verificar cada uma delas, vamos analisar se ela é quantitativa ou qualitativa, e quais são seus subtipos.
+
+> ## total_bill
+> `total_bill` nada mais é que o total da conta feita pelo cliente no estabelecimento comercial  no estabelecimento comercial 
+> ~~~python
+> print(gorjetas.total_bill)
+> 0      16.99
+> 1      10.34
+> 2      21.01
+> 3      23.68
+> 4      24.59
+>        ...  
+> 239    29.03
+> 240    27.18
+> 241    22.67
+> 242    17.82
+> 243    18.78
+> Name: total_bill, Length: 244, dtype: float64
+> ~~~
+> os valores são numéricos, logo são **quantitativos**, e como são valores reais, são **contínuos**.
+
+> ## tip
+> `tip` é o valor da gorjeta, aqui vale lembra que nos Estados Unidos, local onde foi criado este bando de dados, e lá a gorjeta é um tradição, ou seja, praticamente todos deixam gorjetas para os garços, mas não existe uma porcentagem fixa, sendo assim o cliente pode deixar qualquer valor de gorjeta que queria.
+> ~~~python
+> print(gorjetas.tip)
+> 0      1.01
+> 1      1.66
+> 2      3.50
+> 3      3.31
+> 4      3.61
+>        ... 
+> 239    5.92
+> 240    2.00
+> 241    2.00
+> 242    1.75
+> 243    3.00
+>Name: tip, Length: 244, dtype: float64
+> ~~~
+> aqui os valores também são numéricos, então **quantitativos**, e também são valores reais, por tanto são **contínuos**.
+
+> ## tip
+> `tip` é o valor da gorjeta, aqui vale lembra que nos Estados Unidos, local onde foi criado este bando de dados, e lá a gorjeta é um tradição, ou seja, praticamente todos deixam gorjetas para os garços, mas não existe uma porcentagem fixa, sendo assim o cliente pode deixar qualquer valor de gorjeta que queria.
+> ~~~python
+> print(gorjetas.tip)
+> 0      1.01
+> 1      1.66
+> 2      3.50
+> 3      3.31
+> 4      3.61
+>        ... 
+> 239    5.92
+> 240    2.00
+> 241    2.00
+> 242    1.75
+> 243    3.00
+>Name: tip, Length: 244, dtype: float64
+> ~~~
+> aqui os valores também são numéricos, então **quantitativos**, e também são valores reais, por tanto são **contínuos**.
+
 
 <p style="text-align:justify">Um ponto a se observar é a amplitude amostral, que é calculada pela subtração do menor valor da amostra do maior valor.</p>
 
