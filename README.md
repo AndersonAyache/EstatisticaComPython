@@ -12,6 +12,6 @@
 
 <p style="text-align: justify">
     <ul>
-        <li><a href=""></a>Conceitos inicias.</a></li>
+        <a href="https://github.com/AndersonAyache/EstatisticaComPython/blob/main/Estatistica%20com%20Python.ipynb"><li>Conceitos inicias.</li></a>
     </ul>
 </p>
