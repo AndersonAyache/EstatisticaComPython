@@ -1,17 +1,8 @@
 # Estatística com Python 
 
 <p style="text-align: justify">
-    Este trabalho está sendo feita para ajudar a qualquer pessoa que precise usar estatística no seu trabalho e tenha um grande voluma de informações, ele consiste em ensinar como trabalha com Python para facilitar muitos processos feitos dentro de uma análise estatística e também serve para aprender a estatística com esta ferramente incrível que é o Python uma linguagem simples e repleta de bibliotecas para ajudar em diversos tipos de trabalho feitos nesta era moderna.
+    Este trabalho foi desenvolvido para ajudar pessoas que precisam utilizar estatística em seu trabalho e lidam com grandes volumes de dados. Ele visa ajudar como trabalhar com Python para facilitar muitos dos processos realizados em uma análise estatística. Além disso, serve como uma introdução à estatística, utilizando essa poderosa ferramenta, o Python — uma linguagem simples e rica em bibliotecas, que auxilia em diversos tipos de tarefas na era moderna.
 </p>
-
 <p style="text-align: justify">
-    Nos tópicos a seguir será possível encontrar desde a instalação do Python até o trabalho que trás uma analise estatística com compreendimentos de conceitos básicos da estatística, caminhando assim lado a lado a aprendizagem da linguagem com os conceitos básicos necessário para compreensão e aplicação de um estudo estatístico.
-
-</p>
-
-
-<p style="text-align: justify">
-    <ul>
-        <a href="https://github.com/AndersonAyache/EstatisticaComPython/blob/main/Estatistica%20com%20Python.ipynb"><li>Conceitos inicias.</li></a>
-    </ul>
+    Aqui você encontrará instruções para aplicar uma análise estatística utilizando Python, partindo do pressuposto de que o leitor já tenha o Python instalado em sua máquina e tenha familiaridade com a estrutura básica da linguagem, como listas e laços de repetição. O foco será na combinação do aprendizado dos conceitos estatísticos com sua aplicação prática em Python.
 </p>
